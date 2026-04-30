@@ -1,4 +1,4 @@
-package pekan4_2511533015;
+reservepackage pekan4_2511533015;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -15,7 +15,7 @@ public class ReverseData_2511533015 {
 		while (!q_3015.isEmpty ()) { // Q -> S
 			s_3015.push(q_3015.remove());
 		}
-		while (!s_3015.isEmpty ()) { // S -> Q
+		while (!s_3015.isEmpty ()) { // S -> Q //
 			q_3015.add (s_3015.pop());
 		}
 		System.out.println ("sesudah reverse= " + q_3015); // [3,2,1]
